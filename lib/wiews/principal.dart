@@ -143,6 +143,11 @@ class _PrincipalState extends State<Principal> {
                       'imagens/sardinha.PNG',
                       fit: BoxFit.contain,
                     )
+                  else if (_img.text == '')
+                    Image.asset(
+                      'imagens/nao_pesquisado.jpg',
+                      fit: BoxFit.contain,
+                    )
                   else
                     Image.asset(
                       'imagens/nao_encontrado.jpg',
